@@ -7,15 +7,225 @@
     <title>Summer Sale Website</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
     <header>
+        <!-- banner section starts here -->
+        <div class="hero min-h-screen bg-[#F9F6E2]">
+            <div class="hero-content flex-col lg:flex-row-reverse px-5 md:px-16 lg:px-24">
+                <img src="./images/Summer 1.png" class="max-w-sm lg:max-w-xl " />
+                <div>
+                    <p class="text-[#111] text-lg text-center font-medium mb-6">---SALE FEVER---</p>
+                    <h1 class="text-5xl font-bold text-[#111] text-center">Purchase TK 200 or above & get <span
+                            class="text-[#E527B2]">20% off</span></h1>
+                    <p class="py-6 mt-12 text-center text-[#111] text-sm font-medium">Use Promo Code <button
+                            class="px-4 py-2 text-white bg-[#E527B2] rounded-lg">SELL200</button></p>
 
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
+        <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+        <div class="flex flex-col lg:flex-row">
+            <!-- item cards container -->
+            <div class="flex-1 mt-5 ">
+                <!--  kitchen cards --> 
+              <div>
+                <h1 class="text-[#111] text-2xl font-semibold ">Kitchenware</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card px-3 pt-4    shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod1.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">K. Accessories</h2>
+                            <p class="text-[#11111180] text-xl font-normal">39.00 TK</p>
+    
+                        </div>
+                    </div>
+                    <div class="card px-3 pt-4   shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod2.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">K. Accessories</h2>
+                            <p class="text-[#11111180] text-xl font-normal">25.00 TK</p>
+    
+                        </div>
+                    </div>
+                    <div class="card px-3 pt-4   shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod3.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Home Cooker</h2>
+                            <p class="text-[#11111180] text-xl font-normal">49.00 TK</p>
+    
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <!--  Sportswear cards --> 
+              <div>
+                <h1 class="text-[#111] text-2xl font-semibold mt-8 ">Sportswear</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card px-3 pt-4    shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod4.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Sports Back Cap</h2>
+                            <p class="text-[#11111180] text-xl font-normal">49.00 TK</p>
 
+                        </div>
+                    </div>
+                    <div class="card px-3 pt-4   shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod5.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Full Jersey Set</h2>
+                            <p class="text-[#11111180] text-xl font-normal">69.00 TK</p>
+
+                        </div>
+                    </div>
+                    <div class="card px-3 pt-4   shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod6.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Sports cates</h2>
+                            <p class="text-[#11111180] text-xl font-normal">159.00 TK</p>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <!--  Furniture cards --> 
+              <div>
+                <h1 class="text-[#111] text-2xl font-semibold mt-8 ">Sportswear</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="card px-3 pt-4    shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod7.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Single Relax Chair</h2>
+                            <p class="text-[#11111180] text-xl font-normal">185.00 TK</p>
+
+                        </div>
+                    </div>
+                    <div class="card px-3 pt-4   shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod8.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Children play</h2>
+                            <p class="text-[#11111180] text-xl font-normal">299.00 TK</p>
+
+                        </div>
+                    </div>
+                    <div class="card px-3 pt-4   shadow-xl">
+                        <figure class="rounded-xl bg-[#F8F8F8]">
+                            <img src="./images/prod9.png" alt="Shoes" class="rounded-xl  px-3 pt-5 pb-5" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FFC107]" />
+                            </div>
+                            <h2 class="card-title text-xl text-[#111] font-semibold">Flexible Sofa</h2>
+                            <p class="text-[#11111180] text-xl font-normal">339.00 TK</p>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+            <!--coupon and total container -->
+            <div>
+                <div class="px-3 pt-4">
+                    <h1 class="text-[#111] text-xl font-medium">Have coupon?</h1>
+                   <div class="flex">
+                    <input type="text" placeholder="Coupon code" class="input input-bordered w-full max-w-xs" />
+                    <button class="text-white bg-[#E527B2]">Apply</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        
     </main>
 
 </body>
