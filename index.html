@@ -245,37 +245,50 @@
                     <div class="px-3 pt-4 mt-10 shadow-xl rounded-lg pb-8">
                         <h1 class="text-[#111] text-2xl font-medium">Have coupon?</h1>
                         <div class="flex mt-4 ">
-                            <input type="text" placeholder="Coupon code"
-                                class="text-xl border-2 py-4 pl-4 w-full max-w-xs rounded-l-lg" />
-                            <button
-                                class="text-white text-xl font-semibold py-4 px-5 rounded-r-lg bg-[#E527B2]">Apply</button>
+
+                            <input id="text-coupon" type="text" placeholder="Coupon code"
+                                class="text-xl rounded-l-lg border-1 input input-bordered w-full max-w-xs" />
+
+
+                            <button id="myButton"
+                                class="btn pl-4 text-white text-xl font-semibold py-4 px-5 rounded-r-lg bg-[#E527B2]"
+                                disabled="disabled">Apply</button>
+
                         </div>
                     </div>
-                   <div class="shadow-xl rounded-xl">
-                     <!-- add name div -->
-                     <div id="selected-item" class="px-3 pt-4 mt-10 text-[#111] text-2xl font-medium">
+                    <div class="shadow-xl rounded-xl">
+                        <!-- add name div -->
+                        <div id="selected-item" class="px-3 pt-4 mt-10 text-[#111] text-2xl font-medium">
 
-                     </div>
-                     <hr class="px-3 pt-4 mt-10 w-4/5 mx-auto">
-                     <!-- total price div -->
-                     <div class="px-3 pt-4 mt-10">
-                         <p class="text-[#111] px-3  text-2xl font-medium">Total price: <span id="total"></span></p>
-                         <p class="text-[#111] px-3  text-2xl font-medium">Discount :</p>
-                         <p class="text-[#111] px-3  text-2xl font-medium">Total :</p>
-                     </div>
-                     <hr class="px-3 pt-4 mt-10 w-4/5 mx-auto">
-                     <div class="w-4/5 mx-auto">
-                         <button class="text-white text-xl -mb-5 font-semibold py-4 px-5 w-full  rounded-lg bg-[#E527B2]">Make
-                             Purchase</button>
- 
-                     </div>
-                   </div>
+                        </div>
+                        <hr class="px-3 pt-4 mt-10 w-4/5 mx-auto">
+                        <!-- total price div -->
+                        <div class="px-3 pt-4 mt-10">
+                            <p class="text-[#111] px-3 text-2xl font-medium">Total price: <span id="total">00</span>
+                            </p>
+                            <p class="text-[#111] px-3 text-2xl font-medium">Discount: <span id="discount">00</span>
+                            </p>
+                            <p class="text-[#111] px-3 text-2xl font-medium">Total: <span id="final-total">00</span>
+                            </p>
+                        </div>
+                        <hr class="px-3 pt-4 mt-10 w-4/5 mx-auto">
+                        <div class="w-4/5 mx-auto">
+                            <button
+                                class="text-white text-xl -mb-5 font-semibold py-4 px-5 w-full  rounded-lg bg-[#E527B2]">Make
+                                Purchase</button>
+
+                        </div>
+                    </div>
                 </div>
         </section>
 
     </main>
     <script src="script/index.js"></script>
+    <script src="script/test.js"></script>
+    <script>
 
+
+    </script>
 </body>
 
 </html>
