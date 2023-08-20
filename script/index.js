@@ -48,6 +48,12 @@ function handleClickBtn(target) {
   else {
     disableBtn2.setAttribute('disabled', true)
   }
+
+document.getElementById('home-btn').addEventListener('click',function(){
+  location.reload();
+})
+
+
 }
 
 
